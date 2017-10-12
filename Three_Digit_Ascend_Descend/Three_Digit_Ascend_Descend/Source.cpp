@@ -30,11 +30,11 @@ void main() {
 int x;
 
 cout << "Enter a three digit number: \n";
-cin >> x;
+cin >> x; // puts the 3 digit number code into a variable
 
-int a = (x/100)%10;
-int b = (x/10)%10;
-int c = x%10;
+int a = (x/100)%10; // puts the first digit as A
+int b = (x/10)%10; // puts the second digit as B
+int c = x%10; // puts the thrid digit as C
 
 if (c > b) {
 	if(b > a) {
