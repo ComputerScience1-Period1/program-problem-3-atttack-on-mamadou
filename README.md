@@ -42,7 +42,7 @@ using namespace std;
 
 void pause() {
 
-	cout << "Press any key to continue . . .";
+	cout << "Press any key to continue . . ."; // Prints out the words onto the screen
   
 	while (!_kbhit());
   
