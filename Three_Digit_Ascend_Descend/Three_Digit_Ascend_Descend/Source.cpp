@@ -37,17 +37,17 @@ cin >> x; // puts the 3 digit number code into a variable
 
 int a = (x/100)%10; // puts the first digit as A
 int b = (x/10)%10; // puts the second digit as B
-int c = x%10; // puts the third digit as C
+int c = x%10; // puts the thrid digit as C
 
 if (c > b) {
 	if(b > a) {
-		cout << "It is descending. \n";
+		cout << "It is ascending. \n";
 	}
 }
 
 else if (a > b) {
 	if(b > c) {
-		cout << "It is ascending. \n";
+		cout << "It is descending. \n";
 	}
 }
 
